@@ -52,7 +52,7 @@ GAMDOP = "https://graph.org/file/27f935fc5a7c971219a5b.jpg"
 async def sudoers_list(client, message: Message):
     keyboard = [[InlineKeyboardButton(" sᴜᴅᴏʟɪsᴛ ", callback_data="check_sudo_list")]]
     reply_markups = InlineKeyboardMarkup(keyboard)
-    await message.reply_photo(photo=GAMDOP, caption="➤ ᴄʜᴇᴄᴋ ᴛᴏ sᴇᴇɴ ᴛʜᴇ ᴍᴀɢɪᴄ ʙʟɪɴɢ ʙʟɪɴɢ ✨.\n\n <u><b>ɴᴏᴛᴇ:</b></u> ᴏɴʟʏ sᴜᴅᴏ ᴜsᴇʀs ᴄᴀɴ ᴠɪᴇᴡ.\n\nᴍᴀᴅᴇ ᴡɪᴛʜ 🖤 ʙʏ <a href=\"https://t.me/moh_maya_official\">ᴍᴏʜ ᴍᴀʏᴀ❣️</a> ", reply_markup=reply_markups)
+    await message.reply_photo(photo=GAMDOP, caption="➤ ᴄʜᴇᴄᴋ ᴛᴏ sᴇᴇɴ ᴛʜᴇ ᴍᴀɢɪᴄ ʙʟɪɴɢ ʙʟɪɴɢ ✨.\n\n <u><b>ɴᴏᴛᴇ:</b></u> ᴏɴʟʏ sᴜᴅᴏ ᴜsᴇʀs ᴄᴀɴ ᴠɪᴇᴡ.\n\nᴍᴀᴅᴇ ᴡɪᴛʜ 🖤 ʙʏ <a href=\"https://t.me/BADLIAR2001\">BAD LIAR.❣️</a> ", reply_markup=reply_markups)
 
 
 @app.on_callback_query(filters.regex("^check_sudo_list$"))
